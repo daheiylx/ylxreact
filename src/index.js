@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 // import App from './App';
-import PostList from './test/PostList'
+import PostList from './test/PostList2'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(< PostList />, document.getElementById('root'));
