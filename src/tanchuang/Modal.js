@@ -1,6 +1,7 @@
 // 全局弹窗
 import React , { Component }  from "react";
 import ReactDOM from 'react-dom';
+import "./../cssTest/tanchuang.scss"
 class Modal extends Component {
     constructor(props){
         super(props);

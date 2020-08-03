@@ -1,0 +1,14 @@
+.modal{
+    padding: 10px;
+    border:1px solid blanchedalmond;
+    width: 300px;
+    margin: 100px;
+    .close{
+        float: right;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .content{
+        margin-top: 20px;
+    }
+}

@@ -14,9 +14,11 @@ class App extends Component{
         return (
             <div>
                 <h2>Dashboard</h2>
-                {this.state.showModal && (
-                    <Modal onClose = {this.closeModal} children = '我是个弹窗'></Modal>
-                )}
+                <div>
+                    {this.state.showModal && (
+                        <Modal onClose = {this.closeModal} children = '我是个弹窗'></Modal>
+                    )}
+                </div>
             </div>
         )
     }
