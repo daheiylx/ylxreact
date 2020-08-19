@@ -7,8 +7,8 @@ import {
     Switch,
 } from "react-router-dom";
 
-import Login from './SingleWeb/Login.js';
-import Home from './SingleWeb/Home.js';
+import Login from './SingleWeb/js/Login.js';
+import Home from './SingleWeb/js/Home.js';
 
 const router = (
     <Router>

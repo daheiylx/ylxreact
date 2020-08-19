@@ -1,0 +1,15 @@
+.header{
+    background-color: #F5F6FA;
+    padding: 15px 35px;
+    box-shadow: 0 1px 7px 0 rgba(204, 217, 234, 0.84);
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        .link{
+            color: black;
+            &:hover{
+                color: #5582f3;
+            }
+        }
+    }
+}

@@ -21,11 +21,12 @@ class Home extends Component {
             username: '',
             ifLogin: val
         });
-        //this.props.history.push('/login')
+        this.props.history.push('/login')
     }
     render (){
         const { match, location} = this.props;
         const { username } = this.state;
+        const userId = sessionStorage.getItem('userId')
         return (
             <div>
                 <Header 
@@ -34,9 +35,13 @@ class Home extends Component {
                     location={location}/>
                 {/* 帖子列表路由配置 */}
                 <Route 
-                    path="match.url"
+                    path={match.url}
                     exact
-                    render={props => <PostList username={username} {...props} /> }
+                    render={
+                    props => <PostList username={username} 
+                            userId={userId}
+                            {...props} /> 
+                }
                 />
                 {/* 帖子详情路由配置 */}
                 <Route
