@@ -1,0 +1,16 @@
+.p_view {
+  margin: 20px 35px;
+  padding: 20px 0px;
+  border-bottom: 1px solid #464444;
+}
+
+.p_view .h_view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p_view .content {
+  margin: 10px 0;
+}

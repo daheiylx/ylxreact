@@ -1,0 +1,23 @@
+.commentList {
+    margin: 25px 35px;
+    .comment {
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+        .title {
+            font-weight: bold;
+        }
+        .editor {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            textarea{
+                width: 100%;
+                height: 120px;
+                margin: 15px 0;
+            }
+        }   
+    }
+      
+}

@@ -46,7 +46,7 @@ class Home extends Component {
                 {/* 帖子详情路由配置 */}
                 <Route
                     path={`${match.url}/:id`}
-                    render={props => <Post username={username} {...props} /> }
+                    render={props => <Post userId={userId} username={username} {...props} /> }
                 />
             </div>
         )

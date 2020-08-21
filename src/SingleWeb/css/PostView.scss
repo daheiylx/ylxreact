@@ -1,0 +1,14 @@
+.p_view{
+    margin: 20px 35px;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(70, 68, 68);
+    .h_view{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        margin: 10px 0;
+    }
+}

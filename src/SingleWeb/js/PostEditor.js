@@ -36,7 +36,12 @@ class PostEditor extends Component{
 
     // 保存帖子
     handleSaveClick() {
+        const { post } = this.props;
         const data = {
+            id: post.id,                    
+            username: post.username,
+            updatedAt: post.updatedAt,
+            vote: post.vote,
             title: this.state.title,
             content: this.state.content
         }

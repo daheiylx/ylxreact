@@ -1,0 +1,12 @@
+.commentsView {
+    margin-left: -40px;
+    li{
+        border-top: 1px dotted black;
+        padding: 15px 0;
+        .title {
+            margin-bottom: 5px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+    }
+}
